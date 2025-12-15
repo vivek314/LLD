@@ -70,6 +70,6 @@ public class CarRentalSystem {
 	}
 
 	public boolean makePayment(Reservation reservation) {
-
+		return true;
 	}
 }

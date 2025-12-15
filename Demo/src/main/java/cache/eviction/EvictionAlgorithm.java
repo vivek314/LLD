@@ -1,0 +1,8 @@
+package cache.eviction;
+
+public interface EvictionAlgorithm<K> {
+	void keyAccessed(K key) throws Exception;
+
+	K evictKey() throws Exception;
+
+}
