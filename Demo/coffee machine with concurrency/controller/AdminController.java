@@ -8,6 +8,7 @@ public class AdminController {
     private AdminService adminService;
 
     public AdminController(AdminService adminService) {
+        System.out.println("Entered Admin Controller");
         this.adminService = adminService;
     }
 
